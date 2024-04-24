@@ -1,0 +1,47 @@
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(190, 112, 184);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.profile-card{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.233);
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.952);
+    padding: 20px;
+}
+
+h1{
+    color: magenta;
+    margin: 10px 0 5px 0;
+}
+
+p{
+    color: rgb(48, 8, 48);
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    background: rgb(195, 0, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img-container{
+    display: flex;
+    justify-content:center;
+}
